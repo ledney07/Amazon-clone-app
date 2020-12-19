@@ -6,9 +6,9 @@ const firebaseConfig = {
   authDomain: "clone-app-f70e3.firebaseapp.com",
   projectId: "clone-app-f70e3",
   storageBucket: "clone-app-f70e3.appspot.com",
-  messagingSenderId: "893473336737",
-  appId: "1:893473336737:web:64e2056477015bc19b2fe0",
-  measurementId: "G-7PS94937T9",
+  messagingSenderId: ">>>>>>>>>>>>>>>>>>",
+  appId: "**********************",
+  measurementId: "G-**************",
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
