@@ -41,3 +41,7 @@
 .product__rating {
   display: flex;
 }
+
+.product > button {
+  outline: none;
+}

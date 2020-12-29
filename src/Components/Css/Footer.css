@@ -1,0 +1,55 @@
+.footer {
+  align-items: center;
+  background-color: #232f3e;
+  color: #fff;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__wrapper {
+  display: flex;
+  padding: 20px;
+}
+
+.footer__goTheTop {
+  margin: 30px;
+  align-items: center;
+}
+
+.footer__info {
+  display: flex;
+  justify-content: space-around;
+}
+.scrollTop {
+  position: fixed;
+  width: 100%;
+  bottom: 20px;
+  align-items: center;
+  height: 60px;
+  justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.5;
+  font-size: 60px;
+  font-weight: 800;
+  color: #b87b31;
+}
+
+.scrollTop:hover {
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+/* cniven@constellation.com */

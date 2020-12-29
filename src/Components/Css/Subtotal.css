@@ -30,4 +30,16 @@
   font-size: 14px;
   border-color: #a8744a #9c7e31 #846a29;
   color: #111;
+  outline: none;
+  cursor: pointer;
+}
+
+.addMoreBtn {
+  background: lightgray;
+  border: 1px solid;
+  padding: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
 }
